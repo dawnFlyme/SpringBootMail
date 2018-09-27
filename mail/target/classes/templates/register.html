@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>注册模板</title>
+</head>
+<body>
+  <h1>注册信息模板</h1>
+  欢迎注册该网站，点击下面链接进行激活:
+   <a  href="#" th:href="@{'http://192.168.52.1:7001/lis-webapp-PC-7.0.1-SNAPSHOT?id='+${id}}">激活账号</a>
+</body>
+</html>
